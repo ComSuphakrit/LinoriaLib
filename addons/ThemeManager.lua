@@ -48,7 +48,8 @@ local ThemeManager = {} do
 
 	function ThemeManager:LoadDefault()		
 		local theme = 'Default'
-		local content = isfile(self.Folder .. '/themes/default.txt') and readfile(self.Folder .. '/themes/default.txt')
+-- 		local content = isfile(self.Folder .. '/themes/default.txt') and readfile(self.Folder .. '/themes/default.txt')
+		local content = 'Tokyo Night
 
 		local isDefault = true
 		if content then
